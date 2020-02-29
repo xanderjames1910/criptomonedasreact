@@ -13,6 +13,15 @@
   },
   "rules": {
     "jsx-a11y/href-no-hash": ["off"],
+    "prettier/prettier": ["off"],
+    "no-console": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "no-restricted-globals": ["off"],
+    "jsx-a11y/label-has-associated-control": ["off"],
+    "radix": ["off"],
+    "import/prefer-default-export": ["off"],
+    "no-unused-vars": ["warn"],
+    "react/prop-types": ["warn"],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "max-len": [
       "warn",
